@@ -1,0 +1,30 @@
+.background-image {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	display: block;
+	background-image: url('http://1.bp.blogspot.com/-V1baXjOT9uA/T6GdEMJQVFI/AAAAAAAABz8/UmEgJe_LJZM/s1600/desktop-6.jpg');
+	width: 1600px;
+	height: 960px;
+
+	-webkit-filter: blur(6.5px);
+	-moz-filter: blur(6.5px);
+	-o-filter: blur(6.5px);
+	-ms-filter: blur(6.5px);
+	filter: blur(6.5px);
+}
+h1 {
+	font-family: "Open Sans", helvetica, sans-serif;
+	font-size: 100px;
+	color: white;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+}
